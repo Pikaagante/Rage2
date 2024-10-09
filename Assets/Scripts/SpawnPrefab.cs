@@ -10,11 +10,7 @@ public class SpawnPrefab : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-<<<<<<< HEAD
-            // Crée le prefab au spawnpoint
-=======
-            // Créer un cube a la position du spawnPoint 
->>>>>>> 436eacf9bccf272bbb64994bab217258e2b46ab5
+            // Créer un cube à la position du spawnPoint
             GameObject cube = Instantiate(cubePrefab, cubeSpawnPoint.position, Quaternion.identity);
 
             // Détruire le cube après un délai
