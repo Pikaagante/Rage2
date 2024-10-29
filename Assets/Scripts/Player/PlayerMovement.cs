@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && FindObjectOfType<MenuPause>().CanJump())
         {
             isJumping = true;
         }
