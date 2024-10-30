@@ -9,14 +9,20 @@ public class MainMenu : MonoBehaviour
 
     public GameObject settingsWindow;
 
+    public GameObject LevelsWindow;
+
 
     public void StartGame()
     {
         SceneManager.LoadScene(levelStart);
     }
-    public void Levels()
+    public void LevelsActive()
     {
-
+        LevelsWindow.SetActive(true);
+    }
+    public void LevelsClose()
+    {
+        LevelsWindow.SetActive(false);
     }
     public void Settings()
     {
