@@ -1299,6 +1299,18 @@ PrefabInstance:
       propertyPath: Level
       value: Level9
       objectReference: {fileID: 0}
+    - target: {fileID: 1488095439143569800, guid: c865d4f5666866641b161468a970ec0c, type: 3}
+      propertyPath: nextLevel
+      value: Level9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488095439143569800, guid: c865d4f5666866641b161468a970ec0c, type: 3}
+      propertyPath: nextLevelName
+      value: Level9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488095439143569800, guid: c865d4f5666866641b161468a970ec0c, type: 3}
+      propertyPath: currentLevelName
+      value: Level8
+      objectReference: {fileID: 0}
     - target: {fileID: 2105397374379254257, guid: c865d4f5666866641b161468a970ec0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.53

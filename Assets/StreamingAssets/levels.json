@@ -1,0 +1,54 @@
+{
+    "levels": [
+        {
+            "name": "Level-1",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level1",
+            "unlocks": true,
+            "win": false
+        },
+        {
+            "name": "Level2",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level3",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level4",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level5",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level6",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level7",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level8",
+            "unlocks": false,
+            "win": false
+        },
+        {
+            "name": "Level9",
+            "unlocks": false,
+            "win": false
+        }
+    ]
+}
